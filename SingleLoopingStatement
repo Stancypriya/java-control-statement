@@ -1,0 +1,74 @@
+public class SingleLoopingStatement {
+
+ public static void main(String[] args) {
+  //Single for loop for understanding
+  //for(data type and value;condition,increment/decrement)
+  
+  for(int i=1;i<10;++i ) {
+   System.out.println("hai");  
+  // loop will stop when the condition fail
+  //this loop runs 9 times because of condition
+  }
+  
+  //single for loop with if condition
+  
+  for(int i=1;i<=10;++i) {
+   if(i%2==0) {
+    System.out.println("these numbers are divided by 2");
+   }
+  }
+  
+  //single for loop with if else condition
+  
+  for(int i=10;i>=1;--i) {
+   if(i%2==1) {
+    System.out.println("this number are odd number  "+i);
+   }
+   else {
+    System.out.println("this number are even number  "+i);
+   }
+  }
+  
+  //single for loop with if and Switch case
+  
+  for(int i=1;i<=10;++i) {
+   if(i==5) {
+    switch(i) {
+    case 1:
+     System.out.println("A");
+     break;
+    case 2:
+     System.out.println("AA");
+     break;
+    case 5:
+     System.out.println("AAAAA");
+     break;
+    case 4:
+     System.out.println("AAAA");
+     break;
+    case 3:
+     System.out.println("AAA");
+     break;
+     default:
+      System.out.println("no matching case found");
+    }
+   }
+  }
+  
+  //single for loop with nested if else
+  
+  for(int i=1;i<=10;i++) {
+   if(i%2==0) {
+    System.out.println("Anto");
+   }
+   else {
+    if(i%5==0) {
+     System.out.println("A.Anto");
+    }
+    else {
+     System.out.println("As.Anto");
+    }
+   }
+  }
+ }
+}
