@@ -1,0 +1,18 @@
+public class exampl_1 {
+
+ public static void main(String[] args) {
+  
+  //do while loop
+  //in this loop do excute the code statement and update statement
+  //while check the given condition 
+  //if condition true then the do part excute code
+  //if condition false then loops stop working and exit 
+  // all the bussiness logic are write into do only condition is writen in while
+  
+  int i = 1;
+  do {
+   System.out.println(i);
+   ++i;
+  } while (i < 10);
+ }
+}
