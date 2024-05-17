@@ -1,0 +1,80 @@
+public class ConditionalStatement {
+
+ public static void main(String[] args) {
+  double a = 5.5;
+  double b = 7.5;
+  // simple if condition
+  // if given condition is true the Sop will work
+  // if given condition is false then next line doesn't work
+
+  if (a <= b) {
+   System.out.println("if Stetement=true");
+  }
+  if (a == a && a < b) {
+   System.out.println("if Stetement=true");
+  }
+  if (a == b || a < b) {
+   System.out.println("if Stetement=true");
+  }
+  if (a != b) {
+   System.out.println("if Stetement=true");
+  }
+
+  // if else condition
+  // if block will work if the condition is true
+  // else block will work if the given condition is false
+  if (a < b) {
+   System.out.println("if else Stetement=true");
+  } else {
+   System.out.println("if else Stetement=false");
+  }
+  if (a < b || a > b) {
+   System.out.println("if else Stetement=true");
+  } else {
+   System.out.println("if else Stetement=false");
+  }
+  if (a < b && a > b) {
+   System.out.println("if else Stetement=true");
+  } else {
+   System.out.println("if else Stetement=false");
+  }
+  if (a != b) {
+   System.out.println("if else Stetement=true");
+  } else {
+   System.out.println("if else Stetement=false");
+  }
+
+  // nested if else
+  int age = 10;
+  if (age >= 10) {
+   System.out.println("a");
+  } else {
+   if (age < 10) {
+    System.out.println("b");
+   } else {
+    System.out.println("b");
+   }
+  }
+
+  // Switch case
+  int num = 5;
+  switch (num) {
+  case 3:
+   System.out.println("print 1");
+   break;
+  case 4:
+   System.out.println("print 2");
+  case 5:
+   System.out.println("print 3");
+  case 1:
+   System.out.println("print 4");
+  case 2:
+   System.out.println("print 6");
+  case 9:
+   System.out.println("print 5");
+  default:
+   // System.out.println(num);
+
+  }
+ }
+}
