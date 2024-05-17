@@ -1,0 +1,41 @@
+public class Basic_loop_2 {
+
+ public static void main(String[] args) {
+
+  // find multiples of 7 & 9
+  // between 1 t0 100 numbers
+
+  int n = 7;
+  int nu = 9;
+  for (int i = 1; i <= 100; i++) {
+   if (i % n == 0 || i % nu == 0) {
+    System.out.println("multiples of 7 & 9 =  " + i);
+   }
+  }
+
+  // find a number divided by both 7&9
+
+  int num = 7;
+  int numb = 9;
+  for (int i = 1; i <= 100; i++) {
+   if (i % num == 0 && i % numb == 0) {
+    System.out.println("number divide of 7 & 9 =  " + i);
+   }
+  }
+
+  // factors of number 9
+  int number = 9;
+  for (int i = 1; i <= number; ++i) {
+   if (number % i == 0) {
+    System.out.println(i);
+   }
+  }
+  // factors of number 9
+  int digit = 40;
+  for (int i = 1; i <= digit; ++i) {
+   if (digit % i == 0) {
+    System.out.println(i);
+   }
+  }
+ }
+}
