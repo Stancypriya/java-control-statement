@@ -1,0 +1,22 @@
+public class Basic {
+
+ public static void main(String[] args) {
+  int i = 1;
+
+  // while loops is working till the condition if false
+  // once condition fails while loop
+  // basic while loop syntax= one conditon and increment / decrement
+  // conditon true loop works
+  // condtion false loop stop work 
+
+  while (i < 10) {
+   System.out.println("hai");
+   i++;
+  }
+
+  // infinity while loop
+  while (true) {
+   System.out.println("infinity while loop");
+  }
+ }
+}
